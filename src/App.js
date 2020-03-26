@@ -10,7 +10,7 @@ import { NotFound } from './pages/NotFound'
 import {NavBar} from './components/NavBar'
 
 import {Context}  from './Context'
-
+///asdasd
 export const App = () => {
 const {isAuth} = useContext(Context)
 console.log('auth', isAuth)
